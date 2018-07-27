@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-auto-rows: 100px;
+    grid-template-columns: 3fr 2fr;
+    grid-column-gap: 20px;
+    width: 100vw;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/*
+----------------------------
+        Section
+----------------------------
+*/
+
+h2 {
+    margin-top: 0;
+}
+
+.note {
+    display: grid;
+    grid-template-columns: 6fr 4fr 1fr;
+}
+
+.status {
+    text-align: center;
+}
+
+section>article {
+    font-size: 15pt;
+    cursor: pointer;
+}
+
+section>article .date {
+    font-weight: bold;
+    font-style: italic;
+}
+
+section>article p {
+    padding-left: 10px;
+}
+
+section>.processing {
+    background-color: beige;
+}
+
+section>.finished {
+    background-color: #74f394;
+}
+
+section>.later {
+    background-color: #ee7474;
+}
+
+/*
+----------------------------
+        Aside
+----------------------------
+*/
+
+.btn {
+    border: none;
+    width: 150px;
+    font-size: 14pt;
+    padding: 8px 0;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(63, 0, 122)
+}
+
+.btn:hover {
+    background-color: rgb(106, 5, 201)
+}
+
+.inp {
+    margin: 10px 0;
+    width: 100%;
+    font-size: 16pt;
+}
+
+.inp:last-child {
+    margin-bottom: 20px;
+}
+
+.bnt-block-center {
+    max-width: 304px;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.inp-block-center {
+    max-width: 300px;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+/*
+----------------------------
+            Info
+----------------------------
+*/
+
+.info h4 {
+    text-align: center;
+    font-size: 21pt;
+}
+
+.info p {
+    font-size: 16pt;
+}
+
+.info a {}
